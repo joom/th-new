@@ -1,1 +1,12 @@
-The code in this repository requires the `th-new` branch of GHC. Instructions for building this branch are available on the [GHC wiki](http://hackage.haskell.org/trac/ghc/wiki/TemplateHaskell/Typed#Compilingtheth-newbranch). Be sure to follow the instructions for building a static GHCi, as that is required for runtime compilation using the GHC API due to [bug #7774](http://hackage.haskell.org/trac/ghc/ticket/7774). You will also need to install the [`ghc-paths` package](http://hackage.haskell.org/package/ghc-paths-0.1.0.9) by hand.
+# th-new
+
+Forked from [mainland/th-new](https://github.com/mainland/th-new).
+Added a Cabal file and replaced the `pow` example with `not`.
+
+# Usage
+
+```
+cabal run th-new
+```
+
+Works with GHC 8.2.1.
